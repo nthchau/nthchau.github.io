@@ -1,0 +1,325 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Mulish', sans-serif;
+}
+
+#wrapper{
+	width: 100%;
+	heiht: 1000px;
+	margin: 0 auto;
+}
+
+.header {
+	width: 100%;
+	height: 100px;
+	box-shadow: 0 8px 30px rgba(0,0,0,0.10);
+	background-color: #FFFFFF;
+	justify-content: space-between;
+	algin-items: center;
+	display: flex;
+	float:left;
+}
+
+.header .logo img {
+	width: 300px; 
+	padding: 35px;
+}
+
+.header nav {
+	width:550px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+
+.header nav a {
+	text-decoration: none;
+	color: #707070;
+	font-weight: bold;
+}
+.header .callbtn {
+	padding: 25px;
+}
+.header .callbtn button {
+	padding: 15px 40px;
+	text-align: center;
+	font-size: 18px;
+	background-color: #FF6161;
+	border: none;
+	border-radius: 45px;
+}
+
+.header .callbtn button a {
+	text-decoration: none;
+	color: white;
+}
+/*header*/
+
+.banner {
+	width: 100%;
+	height: 700px;
+	background-image: url("../image/banner.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+
+.banner {
+	padding: 0 100px 0 100px;
+}
+
+.line1 {
+	width:200px;
+	height: 5px;
+	background: #ff6161;
+	float: left;
+	margin: 100px 0px 40px 0px;
+}
+
+.bannertext {
+	clear: both;
+}
+.bannertext h1 {
+	font-size: 50px;
+	margin: 0 !important;
+}
+
+.bannertext p {
+	font-size: 15px;
+	line-height: 30px;
+	max-width: 450px;
+	color: #707070;
+}
+
+.banner  button {
+	width: 200px;
+	margin-top: 30px;
+	font-size: 18px;
+	font-weight: bold;
+	padding: 15px 20px 15px 20px;
+	background-color:rgba(0,0,0,0.00) ;
+	border: 3px solid #ff6161;
+	border-radius: 45px;
+}
+
+.banner button a {
+	text-decoration: none;
+	color: #ff6161;
+}
+
+/*banner*/
+
+.thanhtich {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	padding: 0 100px 0 100px;
+}
+.thanhtich .boxthanhtich {
+	height: 300px;
+	margin: 100px 0px 100px 0px;	
+	text-align: center;
+}
+
+.boxthanhtich h1 {
+	color: #ff6161;
+	font-size: 50px;
+}
+
+.line2 {
+	width:200px;
+	height: 3px;
+	background: #707070;
+	margin : 40px 0px 0px 60px;
+	margin-left: 600px;
+}
+
+.box {
+	width:1200px;
+	height: 350px;
+	margin: 100px;	
+}
+.box1 {
+	width: 350px;
+	height: 350px;
+	background: #FF6161;
+	margin-left: 40px;
+	border-radius: 20px;
+	box-shadow: 4px 8px 10px rgba(0,0,0,0.40);
+	float: left;
+}
+.box1 h1 {
+	color:white;
+	font-size: 70px;
+	margin-top: 100px;
+}
+
+.box1 p {
+	color: white;
+	font-size: 18px;
+	max-width: 250px;
+	margin-left: 50px;
+	line-height: 30px;
+}
+
+/* thanhtich*/
+
+.gioithieu {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	padding: 0 100px 0 100px;
+	background: #FFD6D6;
+}
+.gioithieu .gioithieutext {
+	height: 300px;
+	margin: 300px 0px 100px 0px;	
+	text-align: center;
+}
+.gioithieutext h1 {
+	color: #ff6161;
+	font-size: 50px;
+}
+
+.gioithieutext .line2 {
+	width:200px;
+	height: 3px;
+	background: #707070;
+	margin : 40px 0px 0px 60px;
+	margin-left: 310px;
+}
+
+.gioithieutext p {
+	max-width: 800px;
+	margin-top:100px
+}
+
+/*gioithieu*/
+
+.hinhanh1 {
+	height: 700px;
+	background-image: url("../image/_DSC7270.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;	
+}
+
+/*hinhanh1*/
+
+.chuongtrinhhoc{
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	padding: 0 100px 0px 100px;
+	float: left;
+}
+
+.chuongtrinhhoc .chuongtrinhhoctext {
+	height: 300px;
+	margin: 100px 0px 100px 0px;	
+	text-align: center;
+
+}
+
+.chuongtrinhhoc h1 {
+	color: #FF6161;
+	font-size: 50px;
+	
+}
+.chuongtrinhhoctext .line2 {
+	width:200px;
+	height: 3px;
+	background: #707070;
+	margin : 40px 0px 0px 60px;
+	margin-left: 100px;
+
+}
+.cthbox{
+	clear: both;
+}
+
+.cthbox .box {
+	width: 600px;
+	height: 350px;
+	background-color: #FF6161;
+	border-radius: 10px;
+	box-shadow:  4px 8px 10px rgba(0,0,0,0.40);
+
+}
+
+.cthbox .box h1 {
+	font-size: 40px;
+	text-align: end;
+	padding:50px 30px;
+	color:#FFFFFF
+}
+
+.cthbox .box button{
+	width: 200px;
+	font-size: 18px;
+	font-weight: bold;
+	padding: 15px 20px 15px 20px;
+	background-color:rgba(0,0,0,0.00) ;
+	border: 3px solid #FFFFFF;
+	border-radius: 45px;
+	margin-left: 370px;
+}
+.cthbox .box button a{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+/*chuongtrinhhoc*/
+
+.tintuc {
+	width: 100%;
+	height: 700px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	padding: 0 100px 0px 100px;
+	clear: left;
+}
+.tintuc h1 {
+	color: #ff6161;
+	font-size: 50px;
+	float: left;
+}
+
+.line2 {
+	width:200px;
+	height: 3px;
+	background: #707070;
+	margin : 40px 0px 0px 60px;
+	margin-left: px;
+}
+
+.news ul {
+	clear: left;
+}
+
+.tintuc ul li {
+	list-style: none; 	
+	border-bottom:2px solid #707070;
+	clear: left;
+	float: left;
+	margin-bottom: 30px;
+}
+
+.tintuc  ul li img {
+	float: left;
+	margin-right: 20px;
+	height: 200px;
+	margin-bottom: 30px;
+}
+
+.tintuc ul li h2 {
+	font-size: 25px;
+	color: #FF6161;
+}
