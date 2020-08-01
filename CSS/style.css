@@ -283,13 +283,15 @@
 	flex-direction: row;
 	justify-content: space-around;
 	align-items: center;
-	padding: 0 100px 0px 100px;
+	padding: 50px 100px 0px 100px;
 	clear: left;
+	margin-bottom: 100px;
 }
 .tintuc h1 {
 	color: #ff6161;
 	font-size: 50px;
 	float: left;
+	
 }
 
 .line2 {
@@ -323,3 +325,29 @@
 	font-size: 25px;
 	color: #FF6161;
 }
+
+/*tintuc*/
+
+.footer {
+	width: 100%;
+	height: 150px;
+	background: #ff6161;
+}
+
+.footer nav {
+	width:550px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 50px;
+	margin-left: 400px;
+}
+
+.footer nav a {
+	text-decoration: none;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+
+
